@@ -1,3 +1,5 @@
 #!/usr/bin/node
 
-myVar = 333;
+global.myVar = 89;
+require('./100-let_me_const');
+console.log(myVar);
